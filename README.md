@@ -9,8 +9,6 @@ Matlab code to analyze data collected during a brown adipose tissue individualiz
 - [Getting Started with MATLAB](http://www.mathworks.com/help/matlab/getting-started-with-matlab.html "MATLAB Help")
 
 ## Installation
-Assumes MATLAB (release 2011b or newer) installed:  
-
 1. CLICK the green "**Clone or download**" button.   
 2. SELECT the "**Download ZIP**" option to download the latest program release.   
 3. SAVE the unpacked source code files into a folder directory of your choosing.  
@@ -33,8 +31,7 @@ We also encourage community members to contribute to this project. Please read t
 Please be aware that we support a positive social environment for the Individualized_Cooling_Data_Analysis community. As such, community members are expected to adhere to the project's [code of conduct](https://github.com/ccoolbaugh/Individualized_Cooling_Data_Analysis/blob/master/CODE_OF_CONDUCT.md "Code of Conduct") to facilitate constructive, collaborative behavior. 
 
 ## License
-* *Individualized_Cooling_Data_Analysis* is licensed under the MIT [license](https://github.com/ccoolbaugh/Individualized_Cooling_Data_Analysis/blob/master/LICENSE "License").  
-* Third-party software (ginputc.m and imgaussian.m) are used according to their respective license agreements.   
+* *Individualized_Cooling_Data_Analysis* is licensed under the MIT [license](https://github.com/ccoolbaugh/Individualized_Cooling_Data_Analysis/blob/master/LICENSE "License").   
 
 ## Remarks
 Thank you for your interest in *Individualized_Cooling_Data_Analysis*.  
