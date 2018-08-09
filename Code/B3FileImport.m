@@ -24,9 +24,6 @@
 function [SetTemp, Time, WaterTemp, B3Date, B3_DateTime, B3FileName] = B3FileImport
 %% Initialize variables.
 
-% B3FileName=findBATfile(SubNum,SessionType,'B3',RawPath);
-% filename = horzcat(RawPath,B3FileName);
-
 [B3FileName, pathname] = uigetfile('*.csv','Select the B3 Data File.');
 filename = horzcat(pathname,B3FileName);
 clear tokens matches
@@ -61,8 +58,6 @@ Time=table2array(B3File(:,1));
 [tokens,matches] = regexp(B3FileName,expression,'tokens','match');
 B3Date=tokens{1}{1};
 B3Date=datetime(B3Date, 'InputFormat','yyyyMMdd');
-
-% B3Date = datetime(B3FileName(1:8),'InputFormat','yyyyMMdd');
 
 for n=1:length(Time)
     B3_DateTime(n,1)=B3Date+timeofday(Time(n));

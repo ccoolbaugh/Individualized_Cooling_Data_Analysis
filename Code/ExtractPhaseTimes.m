@@ -20,7 +20,8 @@ tidy_path=uigetdir(pwd, 'Select Example-Data Folder');
 addpath(tidy_path);
 
 % Load PhaseTable Information
-load('PhaseTable')
+load('PhaseTable_v1')   %iButton Temperature Sensor Example Data
+%load('PhaseTable_v0')  %LabChart Temperature Sensor Example Data
 
 % In line function searches through SubjectID column in Phase Table and identifies
 % row containg phase time information that matches with the SubID
